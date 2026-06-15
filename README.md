@@ -123,7 +123,6 @@ pip install -r requirements.txt
 python -m uvicorn main:app --reload --port 8000
 ```
 
-API docs: http://localhost:8000/docs
 
 ### Frontend
 
@@ -133,11 +132,11 @@ npm install
 npm run dev
 ```
 
-App: http://localhost:3000
+App: https://ecoloop-root-e9jh.vercel.app/     
 
 ### Usage Flow
 
-1. Open http://localhost:3000/login
+1. Open https://ecoloop-root-e9jh.vercel.app/login
 2. Register a new account
 3. Navigate to **AI Scanner** → upload product image → get AI grade
 4. Click **List on Marketplace** → item appears in marketplace
